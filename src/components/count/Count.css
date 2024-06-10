@@ -1,0 +1,39 @@
+.counts {
+  padding-top: 0;
+}
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+.counts .content {
+  padding: 0;
+}
+.counts .content .count-box {
+  padding: 20px 0;
+  width: 100%;
+}
+.counts .content .count-box i {
+  display: block;
+  font-size: 36px;
+  color: #14279b;
+  float: left;
+  line-height: 0;
+}
+.bi-emoji-smile::before {
+  content: "\f327";
+}
+.counts .content .count-box span {
+  font-size: 36px;
+  line-height: 30px;
+  display: block;
+  font-weight: 700;
+  color: #222222;
+  margin-left: 50px;
+}
+.counts .content .count-box p {
+  padding: 15px 0 0 0;
+  margin: 0 0 0 50px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: #484848;
+}

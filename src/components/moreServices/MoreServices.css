@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+.more-services {
+  padding-top: 20px;
+}
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  color: #222222;
+}
+.section-title h2::before {
+  margin: 0 15px 10px 0;
+}
+.section-title h2::after {
+  margin: 0 0 10px 15px;
+}
+.section-title p {
+  margin: 15px 0 0 0;
+}
+.more-services .card {
+  border: 0;
+  padding: 160px 20px 20px 20px;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.more-services .card-body {
+  z-index: 10;
+  background: #f6f6f6;
+  padding: 15px 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  transition: ease-in-out 0.4s;
+  border-radius: 5px;
+  font-family: "Raleway", sans-serif;
+}
+.more-services .card:hover .card-body {
+  background: #14279b;
+}
+.more-services .card:hover .card-text {
+  color: #fff;
+}
+.more-services .card:hover .card-title a {
+  color: #fff;
+}
+.more-services .card-title {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.more-services .card-title a {
+  color: #222222;
+  text-decoration: none;
+}
+.more-services .card-text {
+  color: #5e5e5e;
+}
